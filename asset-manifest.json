@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/gdsc-frontend/static/css/main.53535595.css",
-    "main.js": "/gdsc-frontend/static/js/main.e7aa8199.js",
+    "main.js": "/gdsc-frontend/static/js/main.ce2ecb9a.js",
     "static/js/787.6c2df95c.chunk.js": "/gdsc-frontend/static/js/787.6c2df95c.chunk.js",
     "index.html": "/gdsc-frontend/index.html",
     "main.53535595.css.map": "/gdsc-frontend/static/css/main.53535595.css.map",
-    "main.e7aa8199.js.map": "/gdsc-frontend/static/js/main.e7aa8199.js.map",
+    "main.ce2ecb9a.js.map": "/gdsc-frontend/static/js/main.ce2ecb9a.js.map",
     "787.6c2df95c.chunk.js.map": "/gdsc-frontend/static/js/787.6c2df95c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.53535595.css",
-    "static/js/main.e7aa8199.js"
+    "static/js/main.ce2ecb9a.js"
   ]
 }
