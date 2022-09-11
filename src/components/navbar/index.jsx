@@ -7,6 +7,7 @@ export default function Navbar(){
     <>
       <div>
         <p>hello deployed</p>
+        <p>Hello test test</p>
       </div>
     </>
   );
