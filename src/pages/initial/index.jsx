@@ -2,7 +2,8 @@ import {React,useEffect} from "react";
 import styles from "./index.module.css";
 import AOS from "aos";
 import logo from "../../assets/logo.png";
-
+import { useNavigate } from 'react-router-dom';
+import {endpoints} from "../../App";
 
 let hoverClrArr = [
     "rgb(226, 0, 0)",
@@ -14,6 +15,7 @@ let hoverClrArr = [
 export default function Initial(){
 
     let counter = 0;
+    const history = useNavigate();
     const hoverClrChange = (event)=>{
         if(counter>hoverClrArr.length){
             counter=0;
@@ -44,7 +46,9 @@ export default function Initial(){
                 <div  className={styles.sub}></div>
                 <p data-aos="zoom-out-down" data-aos-delay="1000" className={styles.gdsc}>GDSC NBNSSOE</p>
                 <p data-aos="zoom-out-down" data-aos-delay="1200" className={styles.gdsc_subtitle}> Google Developer Student Clubs, NBNSSOE</p>
-                <button onMouseOver={hoverClrChange} className={styles.btn}>Lets Go!</button>
+                <button onClick={() => history(`/${endpoints.home}`)} onMouseOver={hoverClrChange} className={styles.btn}>Lets Go!</button>
+               
+
             </div>
         </div>
     )

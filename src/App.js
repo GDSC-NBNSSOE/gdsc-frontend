@@ -3,16 +3,23 @@ import { Route, Routes } from 'react-router-dom';
 import Initial from './pages/initial';
 import Home from './pages/home';
 
-const siteIndex = "gdsc-frontend";
+const base = "gdsc-frontend";
+export const endpoints = {
+  initial:`${base}/`,
+  home:`${base}/home/`,
+}
 
 function App() {
   return (
+    <>
+        
         <Routes>
 
-            <Route path={`${siteIndex}/`} element={<Initial/>}/>
-            <Route path={`${siteIndex}/home`} element={<Home/>}/>
-
+            <Route path={endpoints.initial} element={<Initial/>}/>
+            
+            <Route path={endpoints.home} element={<Home/>}/>
         </Routes>
+  </>
   );
 }
 
