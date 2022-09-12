@@ -1,14 +1,12 @@
-import "./index.scss";
 import { React} from "react";
+import styles from "./index.module.css";
 
 export default function Navbar(){
   
   return (
-    <>
-      <div>
-        <p>hello deployed</p>
-        <p>Hello test test</p>
-      </div>
-    </>
+    <div className={styles.nav}>
+
+    
+    </div>
   );
 };
