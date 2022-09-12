@@ -1,0 +1,74 @@
+
+.root{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    background-image: url("/public/initial2.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.white_shadow{
+    position: fixed;
+    width: 95%;
+    height: 95%;
+    background-color: rgba(255, 255, 255, 0.234);
+    opacity: 12;
+    backdrop-filter: blur(10px);
+    box-shadow:  0px 0px 100px #282727;
+    border-radius: 7px;
+
+    animation-name: white_shadow_animation;
+    animation-duration: 4s;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space; */
+    align-items: center;
+    
+}
+
+@keyframes white_shadow_animation {
+    0% {opacity: 0;}
+    15% {opacity: 0;}
+    30% {opacity: 1;}
+    45% {opacity: 2;}
+    60% {opacity: 3;}
+    75% {opacity: 5;}
+    100% {opacity: 10;}
+  }
+  
+
+.welcome{
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgba(0, 0, 255, 0.752);
+}
+
+.gdsc{
+    font-size: 5rem;
+    font-weight: 700;
+    color: rgba(255, 0, 0, 0.752);
+}
+.gdsc_subtitle{
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgba(7, 7, 7, 0.752);
+}
+
+.btn{
+    width: 150px;
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(45, 44, 44);
+    /* rgb(45, 44, 44) */
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

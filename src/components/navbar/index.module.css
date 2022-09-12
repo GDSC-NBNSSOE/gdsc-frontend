@@ -1,0 +1,7 @@
+.nav{
+    background-color: red;
+    width: 100vw;
+    height: 10vh;
+    min-height: 90px;
+    max-height: 100px;
+}
