@@ -2,6 +2,7 @@ import {React} from "react";
 import styles from "./index.module.css";
 import AOS from "aos";
 import logo from "../../assets/logo.png";
+// import d from "../../../"
 
 AOS.init();
 let hoverClrArr = [
