@@ -27,7 +27,7 @@ export default function Initial(){
             <div className={styles.white_shadow}>
 
                 <p className={styles.welcome}>Welcome</p>
-                <div><img src="/logo.png"/></div>
+                {/* <div><img src="/logo.png"/></div> */}
                 
                 <div className={styles.sub}></div>
                 <p className={styles.gdsc}>GDSC NBNSSOE</p>
