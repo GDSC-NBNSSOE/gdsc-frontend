@@ -2,7 +2,7 @@
 .root{
 
     width: 100vw;
-    height: 98vh;
+    height: 100vh;
     background-color: red;
     background-image: url("/src/assets/initial2.png");
     background-repeat: no-repeat;
