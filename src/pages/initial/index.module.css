@@ -4,7 +4,7 @@
     width: 100vw;
     height: 100vh;
     background-color: red;
-    background-image: url("/public/initial2.png");
+    background-image: url("/src/assets/initial2.png");
     background-repeat: no-repeat;
     background-size:cover;
     display: flex;
@@ -27,7 +27,7 @@
 
     display: flex;
     flex-direction: column;
-    /* justify-content: space; */
+    justify-content:space-around;
     align-items: center;
     
 }
@@ -53,11 +53,13 @@
     font-size: 5rem;
     font-weight: 700;
     color: rgba(255, 0, 0, 0.752);
+    margin: 0;
 }
 .gdsc_subtitle{
     font-size: 3rem;
     font-weight: 700;
     color: rgba(7, 7, 7, 0.752);
+    margin: 0;
 }
 
 .btn{
@@ -71,4 +73,9 @@
     border: none;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.logo{
+    width: 12%;
+    height: 20%;
 }

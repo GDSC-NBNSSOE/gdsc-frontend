@@ -1,6 +1,7 @@
-import {React,useState} from "react";
+import {React} from "react";
 import styles from "./index.module.css";
 import AOS from "aos";
+import logo from "../../assets/logo.png";
 
 AOS.init();
 let hoverClrArr = [
@@ -27,7 +28,7 @@ export default function Initial(){
             <div className={styles.white_shadow}>
 
                 <p className={styles.welcome}>Welcome</p>
-                {/* <div><img src="/logo.png"/></div> */}
+                <img src={logo} className={styles.logo} alt="gdsc logo"/>
                 
                 <div className={styles.sub}></div>
                 <p className={styles.gdsc}>GDSC NBNSSOE</p>
